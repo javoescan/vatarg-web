@@ -7,7 +7,7 @@ export default function Home() {
 				src="/images/pages/home/banner.gif" 
 				alt="banner"
 				width={'100%'}
-				style={{maxHeight: '400px' }}
+				style={{maxHeight: '300px' }}
 			/>
 		</div>
 	);
