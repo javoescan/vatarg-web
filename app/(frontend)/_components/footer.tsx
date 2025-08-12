@@ -1,4 +1,4 @@
-export default function Footer() {
+export default function ComponentsFooter() {
 	return (
 		<footer className="bg-body-tertiary fixed-bottom">
 			<div className="text-center p-4">
