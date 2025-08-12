@@ -11,7 +11,7 @@ export default function BasicExample() {
     <Navbar expand="lg" className="bg-body-tertiary" fixed="top" data-bs-theme="dark">
       <Container>
         <Navbar.Brand href="/" className="me-5">
-          <Image src="/images/brand/logo.svg" alt="logo" width={100} height={50} />
+          <Image src="/images/brand/logo.svg" alt="logo" width={100} height={46} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -24,7 +24,7 @@ export default function BasicExample() {
 
             <NavDropdown title="Controladores" id="basic-nav-dropdown" className="me-2">
               <NavDropdown.Item href="/controllers/roster">Roster</NavDropdown.Item>
-              <NavDropdown.Item href="/controllers/documents">Documentos</NavDropdown.Item>
+              <NavDropdown.Item href="/controllers/manuals">Manuales</NavDropdown.Item>
               {/* <NavDropdown.Item href="#action/3.2">Reservas</NavDropdown.Item> */}
               <NavDropdown.Item href="https://argentina.vatsur.org/web/consola/">Entrenamiento</NavDropdown.Item>
             </NavDropdown>
@@ -36,6 +36,7 @@ export default function BasicExample() {
             </NavDropdown>
 
             <NavDropdown title="División" id="basic-nav-dropdown" className="me-2">
+              <NavDropdown.Item href="/division/first-steps">¡Unite!</NavDropdown.Item>
               <NavDropdown.Item href="/division/feedback">Feedback</NavDropdown.Item>
               <NavDropdown.Item href="/division/staff">Staff</NavDropdown.Item>
             </NavDropdown>
