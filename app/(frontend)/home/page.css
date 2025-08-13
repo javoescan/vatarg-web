@@ -13,10 +13,13 @@
 	flex: 2;
 }
 
-.home-online-atc-item {
-	border-color: var(--blue);
-	border-width: 2px;
-	border-style: solid;
+.home-online-item {
+	display: flex;
+	align-items: center;
 	margin: 0px;
 	padding: 5px;
+}
+
+.home-online-item-text {
+	margin: 0px;
 }
