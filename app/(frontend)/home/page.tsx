@@ -27,7 +27,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="home-events mb-4">
-						<p className="section-header">Siguiente evento</p>
+						<p className="section-header">Próximo evento</p>
 						<div className="home-event">
 							<Image src="/images/events/event.jpeg" alt="event" className="home-event"/>
 						</div>
