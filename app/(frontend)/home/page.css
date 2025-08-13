@@ -1,0 +1,22 @@
+/* LEFT CONTAINER */
+.home-left-container {
+	flex: 5;
+}
+
+.home-event{
+	max-width: 100%;
+	height: auto;
+}
+
+/* RIGHT CONTAINER */
+.home-right-container {
+	flex: 2;
+}
+
+.home-online-atc-item {
+	border-color: var(--blue);
+	border-width: 2px;
+	border-style: solid;
+	margin: 0px;
+	padding: 5px;
+}

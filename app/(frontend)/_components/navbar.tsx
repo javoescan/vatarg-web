@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default function ComponentsNavbar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" fixed="top" data-bs-theme="dark">
+    <Navbar expand="lg" className="bg-blue" fixed="top">
       <Container>
         <Navbar.Brand href="/" className="me-5">
           <Image src="/images/brand/logo.svg" alt="logo" width={100} height={46} />
@@ -24,7 +24,7 @@ export default function ComponentsNavbar() {
 
             <NavDropdown title="Controladores" id="basic-nav-dropdown" className="me-2">
               <NavDropdown.Item href="/controllers/roster">Roster</NavDropdown.Item>
-              <NavDropdown.Item href="/controllers/manuals">Manuales</NavDropdown.Item>
+              <NavDropdown.Item href="/controllers/euroscope">Euroscope</NavDropdown.Item>
               {/* <NavDropdown.Item href="#action/3.2">Reservas</NavDropdown.Item> */}
               <NavDropdown.Item href="https://argentina.vatsur.org/web/consola/">Entrenamiento</NavDropdown.Item>
             </NavDropdown>

@@ -1,0 +1,39 @@
+:root {
+  --blue: #132c53;
+	--bs-body-font-family: "Roboto Condensed";
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.nav-link, .nav-link:hover {
+	color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+	color: rgb(137, 137, 137);
+}
+
+.navbar-toggler {
+	border: var(--bs-border-width) solid white;
+}
+
+.navbar-toggler-icon {
+	filter: brightness(0) saturate(100%) invert(99%) sepia(57%) saturate(2%) hue-rotate(117deg) brightness(111%) contrast(101%);
+}
+
+.section-header {
+  background-color: var(--blue);
+	font-size: 1.2em;
+	padding: 7px;
+	color: white;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	margin-bottom: 0px;
+}
